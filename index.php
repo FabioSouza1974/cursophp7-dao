@@ -30,8 +30,14 @@
     // echo $aluno;
 
     //atualizando dados de um usuario
+    // $usuario = new Usuario();
+    // $usuario->loadById(13);
+    // $usuario->update("professor","profe$$0r");
+    // echo $usuario;
+
+    //excluindo um usuario
     $usuario = new Usuario();
-    $usuario->loadById(13);
-    $usuario->update("professor","profe$$0r");
+    $usuario->loadById(7);
+    $usuario->delete();
     echo $usuario;
 ?>
